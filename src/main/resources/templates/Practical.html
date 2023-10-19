@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<div class="container">
+    <h1>User login</h1>
+    <p th:text="'car color='+${car.getColor()}" ></p>
+    <div >
+        username: <input type=" text" name="username" placeholder="username">
+
+    </div>
+    <div>
+        password:<input type="password" name="password" placeholder="password">
+    </div>
+    <div>
+        <input type="submit" name="login">
+    </div>
+</div>
+</body>
+</html>
